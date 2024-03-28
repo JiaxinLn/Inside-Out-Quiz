@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(45deg, #FF0000, #FFD700, #800080, #0000FF);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.poster img {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+.inputs {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.inputs h3 {
+  color: #3498db;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.answerbutton {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.answerbutton:hover {
+  background-color: #27ae60;
+}
+
+.restart {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.restart:hover {
+  background-color: #c0392b;
+}
+
+.completion {
+  color: #7f8c8d;
+}
+
+.history {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.character-image-container {
+  display: none;
+  margin: 20px auto;
+}
+
+.character-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.inputs h3 {
+  color: #3498db;
+  font-size: 18px;
+  margin-bottom: 10px;
+}

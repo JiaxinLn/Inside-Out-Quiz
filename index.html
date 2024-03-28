@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>What Inside Out Character Are You?</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <h1>What Inside Out Character Are You?</h1>
+  <button class = "restart">Restart!</button>
+  <div class = "poster"><img src="https://lumiere-a.akamaihd.net/v1/images/pp_insideout2_herobanner_mobile_798_06569e0f.png"></div>
+  <div class = "inputs">
+    <h3>What is your name?</h3>
+    <input class="question1">
+    <h3>What is an item that makes you either happy or sad?</h3>
+    <input class="question2">
+    <h3>On a scale of 1-10 rate your happiness level.</h3>
+    <input class="question3" type="number" min="1" max="10">
+    <h3>What is your favorite color from these options?</h3>
+    <select class="question4">
+      <option value="yellow">Yellow</option>
+      <option value="purple">Purple</option>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+    </select>
+
+    <br>
+    <button class="answerbutton">Get My Character!</button>
+  </div>
+  <br>
+<!--------------------------------------------------------------->
+  <h3 class="completion">You have not completed the quiz yet!</h3> 
+  <div class="character-image-container" style="display: none;">
+    <img class="character-image" src="" alt="Character Image">
+  </div>
+  <h1>Response History</h1>
+  <ol class="history">
+  </ol>
+<script src="script.js"></script>
+</body>
+</html>
